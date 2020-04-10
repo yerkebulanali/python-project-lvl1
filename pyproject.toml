@@ -2,8 +2,7 @@
 packages = [
     { include = "brain_games" }
 ]
-[tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
+
 name = "yerkebulanali_brain_games"
 version = "0.1.0"
 description = ""
@@ -13,6 +12,9 @@ authors = ["Yerkebulan <yerkebulanali@gmail.com>"]
 python = "^2.7"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
 
 [build-system]
 requires = ["poetry>=0.12"]

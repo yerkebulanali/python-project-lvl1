@@ -9,7 +9,8 @@ description = ""
 authors = ["Yerkebulan <yerkebulanali@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^2.7"
+python = "3.6.9"
+prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 

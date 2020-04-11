@@ -9,10 +9,11 @@ description = ""
 authors = ["Yerkebulan <yerkebulanali@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "3.6.9"
+python = "^3.6"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
+flake8 = "poetry add --dev flake8"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"

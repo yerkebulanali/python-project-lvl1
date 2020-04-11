@@ -3,7 +3,7 @@ packages = [
     { include = "brain_games" }
 ]
 
-name = "yerkebulanali_brain_games"
+name = "braingames"
 version = "0.1.0"
 description = ""
 authors = ["Yerkebulan <yerkebulanali@gmail.com>"]

@@ -1,5 +1,4 @@
 # python-project-lvl1
-<<<<<<< HEAD
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability">
     <img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" />
 </a>
@@ -9,9 +8,3 @@
 </a>
 
 [![Build Status](https://travis-ci.com/yerkebulanali/python-project-lvl1.svg?branch=master)](https://travis-ci.com/yerkebulanali/python-project-lvl1)
-=======
-
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability">
-    <img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" />
-</a>
->>>>>>> ec5a387b1e27253ff1cc946159b2fd1b4bb6effa

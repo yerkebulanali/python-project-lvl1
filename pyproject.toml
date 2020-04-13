@@ -3,8 +3,8 @@ packages = [
     { include = "brain_games" }
 ]
 
-name = "brain_games"
-version = "0.1.0"
+name = "braingames"
+version = "0.2.0"
 description = ""
 authors = ["Yerkebulan <yerkebulanali@gmail.com>"]
 
@@ -17,6 +17,7 @@ flake8 = "^3.7.9"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:even_odd"
 
 [build-system]
 requires = ["poetry>=0.12"]

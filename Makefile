@@ -1,14 +1,17 @@
+pypi:
+	python3 -m pip install --user --index-url https://test.pypi.org/simple --extra-index-url https://pypi.org/simple braingames
+
 install:
 	poetry install
 
 config:
-    poetry config repositories.yerkebulanali https://test.pypi.org/legacy/
+	poetry config repositories.yerkebulanali https://test.pypi.org/legacy/
 
 build:
-    poetry build
+	poetry build
 
 publish:
-    poetry publish -r yerkebulanali
+	poetry publish -r yerkebulanali
 
 lint:
 	poetry run flake8 brain_games

@@ -1,6 +1,9 @@
-from brain_games.cli import welcome_user
+from brain_games import engine
 
 
 def main():
-    slogan = ''
-    welcome_user(slogan)
+    engine.greet()
+
+
+if __name__ == '__main__':
+    main()

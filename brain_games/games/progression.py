@@ -1,7 +1,9 @@
 import random
+description = "What number is missing in the progression?"
+attempts = 3
 
 
-def main():
+def algorithm():
     start_choice = random.randrange(50)
     progression = random.randrange(1, 11)
     index = random.randrange(10)

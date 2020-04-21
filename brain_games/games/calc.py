@@ -1,7 +1,9 @@
 import random
+description = "What is the result of the expression?"
+attempts = 3
 
 
-def main():
+def algorithm():
     operator = random.choice(['*', '+', '-'])
     first = random.randrange(100)
     second = random.randrange(100)

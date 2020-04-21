@@ -1,7 +1,9 @@
 import random
+description = 'Answer "yes" if number even otherwise answer "no".'
+attempts = 3
 
 
-def main():
+def algorithm():
     number = random.randrange(1, 100)
     question_value = "{}".format(number)
     if number % 2 == 0:

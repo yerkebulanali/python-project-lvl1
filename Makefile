@@ -1,5 +1,5 @@
 pypi:
-	python3 -m pip install --user --index-url https://test.pypi.org/simple --extra-index-url https://pypi.org/simple braingames
+	python3 -m pip install --user --index-url https://test.pypi.org/simple --extra-index-url https://pypi.org/simple yerkebulanali-brain-games
 
 install:
 	poetry install

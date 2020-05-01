@@ -1,11 +1,13 @@
 import random
-import math
-description = "Find the greatest common divisor of given numbers."
-attempts = 3
+DESCRIPTION = "Find the greatest common divisor of given numbers."
+
+
+def gcd(first, second):
+    return first if second == 0 else gcd(second, first % second)
 
 
 def algorithm():
     first = random.randrange(100)
     second = random.randrange(100)
-    question_value = "{} {}".format(first, second)
-    return question_value, str(math.gcd(first, second))
+    question = "{} {}".format(first, second)
+    return question, str(gcd(first, second))

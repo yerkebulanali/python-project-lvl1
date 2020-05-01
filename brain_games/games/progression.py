@@ -1,6 +1,5 @@
 import random
-description = "What number is missing in the progression?"
-attempts = 3
+DESCRIPTION = "What number is missing in the progression?"
 
 
 def algorithm():
@@ -8,10 +7,10 @@ def algorithm():
     progression = random.randrange(1, 11)
     index = random.randrange(10)
     result = []
-    for i in list(range(1, 11)):
+    for i in range(1, 11):
         start_choice += progression
-        result.append(start_choice)
+        result.append(str(start_choice))
     answer = result[index]
     result[index] = '..'
-    question_value = ('{} '*len(result)).format(*result)
-    return question_value, str(answer)
+    question = ' '.join(result)
+    return question, answer

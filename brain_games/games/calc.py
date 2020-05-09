@@ -4,7 +4,9 @@ DESCRIPTION = "What is the result of the expression?"
 
 
 def play_round():
-    OPERATIONS = (('+', operator.add), ('-', operator.sub), ('*', operator.mul))
+    OPERATIONS = (('+', operator.add),
+                  ('-', operator.sub),
+                  ('*', operator.mul))
     first = random.randrange(100)
     second = random.randrange(100)
     operators_sign, operation = random.choice(OPERATIONS)

@@ -14,6 +14,7 @@ def is_prime(number):
             answer = 'no'
     return answer
 
+
 def play_round():
     number = random.randrange(1, 100)
     question = str(number)

@@ -6,7 +6,7 @@ def gcd(first, second):
     return first if second == 0 else gcd(second, first % second)
 
 
-def algorithm():
+def play_round():
     first = random.randrange(100)
     second = random.randrange(100)
     question = "{} {}".format(first, second)
